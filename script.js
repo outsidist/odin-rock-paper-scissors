@@ -56,11 +56,26 @@ Overall game structure:
 
 */
 
+
+//available choices
 choices = ['rock', 'paper', 'scissors'] 
+
+//computer choice
 function computerChoice() {
     const choose = Math.floor(Math.random() * choices.length);
     return choices[choose];
 }
+
 const computerSelection = computerChoice();
-console.log(computerSelection)
+//user choice
+const userSelection = userChoice()
+
+function userChoice () {
+    //need to include a way of weeding out entries that aren't rock, paper or scissors, maybe checking whether or not the userSelection variable is equivalent to an item in the choices array
+    const userSelection = prompt('Please choose rock, paper or scissors').toLowerCase();
+    console.log('You chose '+ userSelection +';');
+    alert('You chose ' + userSelection);
+    return userSelection;
+}
+
 
