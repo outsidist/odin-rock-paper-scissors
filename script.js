@@ -63,13 +63,13 @@ function playRound () {
 
 function declareWinner() {
     if (userWin>computerWin) {
-        console.log("You won this game")
+        alert("You won this game")
     }
     else if (userWin<computerWin) {
-        console.log("I won this game")
+        alert("I won this game")
     }
     else {
-        console.log("What a coincidence, we drew")
+        alert("What a coincidence, we drew")
     }
 }
 
