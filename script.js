@@ -63,13 +63,13 @@ function playRound () {
 
 function declareWinner() {
     if (userWin>computerWin) {
-        alert("You won this game")
+        alert("You, a puny human, won this game, your score was "+ userWin + ".")
     }
     else if (userWin<computerWin) {
-        alert("I won this game")
+        alert("The mighty computer won this game, your score was "+ userWin + ".")
     }
     else {
-        alert("What a coincidence, we drew")
+        alert("What a coincidence, we drew, your score was "+ userWin + ".")
     }
 }
 
