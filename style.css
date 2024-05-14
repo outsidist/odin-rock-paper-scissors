@@ -1,0 +1,11 @@
+:root {
+    --primarycolor: rgb(255, 255, 255);
+    --backgroundcolor: rgb(56, 56, 56);
+    --ff: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: var(--backgroundcolor);
+    color: var(--primarycolor);
+    font-family: var(--ff);
+}

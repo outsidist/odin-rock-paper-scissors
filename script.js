@@ -10,7 +10,7 @@ function computerChoice() {
 
 function userChoice () {
     //need to include a way of weeding out entries that aren't rock, paper or scissors, maybe checking whether or not the userSelection variable is equivalent to an item in the choices array
-    let userSelection = '';
+    let userSelection = null;
 
     // Keep prompting until the user enters a valid choice
     while (!choices.includes(userSelection)) {
